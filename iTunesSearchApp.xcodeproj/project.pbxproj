@@ -14,6 +14,8 @@
 		0BC9A68527568D1F000F4E57 /* iTunesSearchApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0BC9A68327568D1F000F4E57 /* iTunesSearchApp.xcdatamodeld */; };
 		0BC9A68727568D22000F4E57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0BC9A68627568D22000F4E57 /* Assets.xcassets */; };
 		0BC9A68A27568D22000F4E57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BC9A68827568D22000F4E57 /* LaunchScreen.storyboard */; };
+		0BC9A69327568DC8000F4E57 /* SearchResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC9A69227568DC8000F4E57 /* SearchResult.swift */; };
+		0BC9A69627568EBF000F4E57 /* SearchResultsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BC9A69527568EBF000F4E57 /* SearchResultsController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,8 @@
 		0BC9A68627568D22000F4E57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0BC9A68927568D22000F4E57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0BC9A68B27568D22000F4E57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BC9A69227568DC8000F4E57 /* SearchResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResult.swift; sourceTree = "<group>"; };
+		0BC9A69527568EBF000F4E57 /* SearchResultsController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchResultsController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +47,8 @@
 			isa = PBXGroup;
 			children = (
 				0BC9A67927568D1F000F4E57 /* iTunesSearchApp */,
+				0BC9A69B27568EFF000F4E57 /* Views */,
+				0BC9A69827568ED6000F4E57 /* Resources */,
 				0BC9A67827568D1F000F4E57 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -58,16 +64,32 @@
 		0BC9A67927568D1F000F4E57 /* iTunesSearchApp */ = {
 			isa = PBXGroup;
 			children = (
-				0BC9A67A27568D1F000F4E57 /* AppDelegate.swift */,
-				0BC9A67C27568D1F000F4E57 /* SceneDelegate.swift */,
-				0BC9A67E27568D1F000F4E57 /* ViewController.swift */,
-				0BC9A68027568D1F000F4E57 /* Main.storyboard */,
-				0BC9A68627568D22000F4E57 /* Assets.xcassets */,
-				0BC9A68827568D22000F4E57 /* LaunchScreen.storyboard */,
 				0BC9A68B27568D22000F4E57 /* Info.plist */,
-				0BC9A68327568D1F000F4E57 /* iTunesSearchApp.xcdatamodeld */,
+				0BC9A69227568DC8000F4E57 /* SearchResult.swift */,
+				0BC9A69527568EBF000F4E57 /* SearchResultsController.swift */,
+				0BC9A67E27568D1F000F4E57 /* ViewController.swift */,
 			);
 			path = iTunesSearchApp;
+			sourceTree = "<group>";
+		};
+		0BC9A69827568ED6000F4E57 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0BC9A67A27568D1F000F4E57 /* AppDelegate.swift */,
+				0BC9A67C27568D1F000F4E57 /* SceneDelegate.swift */,
+				0BC9A68627568D22000F4E57 /* Assets.xcassets */,
+				0BC9A68327568D1F000F4E57 /* iTunesSearchApp.xcdatamodeld */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0BC9A69B27568EFF000F4E57 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				0BC9A68027568D1F000F4E57 /* Main.storyboard */,
+				0BC9A68827568D22000F4E57 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -142,7 +164,9 @@
 			files = (
 				0BC9A67F27568D1F000F4E57 /* ViewController.swift in Sources */,
 				0BC9A67B27568D1F000F4E57 /* AppDelegate.swift in Sources */,
+				0BC9A69327568DC8000F4E57 /* SearchResult.swift in Sources */,
 				0BC9A67D27568D1F000F4E57 /* SceneDelegate.swift in Sources */,
+				0BC9A69627568EBF000F4E57 /* SearchResultsController.swift in Sources */,
 				0BC9A68527568D1F000F4E57 /* iTunesSearchApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
